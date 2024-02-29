@@ -1,0 +1,11 @@
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Domain\bin\Debug\net8.0\NovelSys.Domain.deps.json
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Domain\bin\Debug\net8.0\NovelSys.Domain.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Domain\bin\Debug\net8.0\NovelSys.Domain.pdb
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Domain\obj\Debug\net8.0\NovelSys.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Domain\obj\Debug\net8.0\NovelSys.Domain.AssemblyInfoInputs.cache
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Domain\obj\Debug\net8.0\NovelSys.Domain.AssemblyInfo.cs
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Domain\obj\Debug\net8.0\NovelSys.Domain.csproj.CoreCompileInputs.cache
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Domain\obj\Debug\net8.0\NovelSys.Domain.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Domain\obj\Debug\net8.0\refint\NovelSys.Domain.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Domain\obj\Debug\net8.0\NovelSys.Domain.pdb
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Domain\obj\Debug\net8.0\ref\NovelSys.Domain.dll

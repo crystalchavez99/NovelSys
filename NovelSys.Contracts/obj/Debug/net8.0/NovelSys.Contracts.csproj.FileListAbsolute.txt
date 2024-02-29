@@ -1,0 +1,11 @@
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Contracts\bin\Debug\net8.0\NovelSys.Contracts.deps.json
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Contracts\bin\Debug\net8.0\NovelSys.Contracts.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Contracts\bin\Debug\net8.0\NovelSys.Contracts.pdb
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Contracts\obj\Debug\net8.0\NovelSys.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Contracts\obj\Debug\net8.0\NovelSys.Contracts.AssemblyInfoInputs.cache
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Contracts\obj\Debug\net8.0\NovelSys.Contracts.AssemblyInfo.cs
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Contracts\obj\Debug\net8.0\NovelSys.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Contracts\obj\Debug\net8.0\NovelSys.Contracts.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Contracts\obj\Debug\net8.0\refint\NovelSys.Contracts.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Contracts\obj\Debug\net8.0\NovelSys.Contracts.pdb
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Contracts\obj\Debug\net8.0\ref\NovelSys.Contracts.dll
