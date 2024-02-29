@@ -5,17 +5,11 @@ C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\NovelSys.Api.runtimeconfig.json
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\NovelSys.Api.dll
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\NovelSys.Api.pdb
-C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
-C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\obj\Debug\net8.0\NovelSys.Api.csproj.AssemblyReference.cache
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\obj\Debug\net8.0\NovelSys.Api.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\obj\Debug\net8.0\NovelSys.Api.AssemblyInfoInputs.cache
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\obj\Debug\net8.0\NovelSys.Api.AssemblyInfo.cs
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\obj\Debug\net8.0\NovelSys.Api.csproj.CoreCompileInputs.cache
-C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\obj\Debug\net8.0\NovelSys.Api.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\obj\Debug\net8.0\NovelSys.Api.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\obj\Debug\net8.0\staticwebassets.development.json
