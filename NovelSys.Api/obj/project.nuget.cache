@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "UWX76y32p2tqYy1sED0iRbBfX4ykF7SG1QLO47zOMxjAAMJVxIWBOaGvKb5hmnNoESYTCfFmCrLnwBh1VF472w==",
+  "dgSpecHash": "BGUaYSNXPHoKrUeTyxtWLTeIZLjEDx473VYdUBjuW8IgSKpJfLHRohJAzyDMdsswmbkJFcoqmtFSbtWsV+i1og==",
   "success": true,
   "projectFilePath": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Api\\NovelSys.Api.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\CChavez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
