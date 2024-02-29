@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Infastructure\\NovelSys.Infastructure.csproj": {}
+    "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Infrastructure\\NovelSys.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Infastructure\\NovelSys.Infastructure.csproj": {
+    "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Infrastructure\\NovelSys.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Infastructure\\NovelSys.Infastructure.csproj",
-        "projectName": "NovelSys.Infastructure",
-        "projectPath": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Infastructure\\NovelSys.Infastructure.csproj",
+        "projectUniqueName": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Infrastructure\\NovelSys.Infrastructure.csproj",
+        "projectName": "NovelSys.Infrastructure",
+        "projectPath": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Infrastructure\\NovelSys.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\CChavez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Infastructure\\obj\\",
+        "outputPath": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\CChavez\\AppData\\Roaming\\NuGet\\NuGet.Config",

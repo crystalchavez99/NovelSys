@@ -1,4 +1,4 @@
-﻿namespace NovelSys.Infastructure;
+﻿namespace NovelSys.Inrfastructure;
 
 public class Class1
 {

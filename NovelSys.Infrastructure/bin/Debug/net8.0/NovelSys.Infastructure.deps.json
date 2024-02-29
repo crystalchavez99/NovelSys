@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "NovelSys.Infastructure/1.0.0": {
+      "NovelSys.Infrastructure/1.0.0": {
         "runtime": {
-          "NovelSys.Infastructure.dll": {}
+          "NovelSys.Infrastructure.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "NovelSys.Infastructure/1.0.0": {
+    "NovelSys.Infrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

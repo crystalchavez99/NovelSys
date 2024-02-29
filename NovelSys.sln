@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovelSys.Infastructure", "NovelSys.Infastructure\NovelSys.Infastructure.csproj", "{5DEE6A9C-7297-4B6D-92CE-38EF9053E15E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovelSys.Infrastructure", "NovelSys.Infrastructure\NovelSys.Infrastructure.csproj", "{5DEE6A9C-7297-4B6D-92CE-38EF9053E15E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NovelSys.Domain", "NovelSys.Domain\NovelSys.Domain.csproj", "{07D941FA-64BE-4739-921F-FF55CF485FB6}"
 EndProject

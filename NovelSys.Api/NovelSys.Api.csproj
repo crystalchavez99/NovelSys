@@ -14,7 +14,7 @@
   <ItemGroup>
     <ProjectReference Include="..\NovelSys.Contracts\NovelSys.Contracts.csproj" />
     <ProjectReference Include="..\NovelSys.Application\NovelSys.Application.csproj" />
-    <ProjectReference Include="..\NovelSys.Infrastructure\NovelSys.Infastructure.csproj" />
+    <ProjectReference Include="..\NovelSys.Infrastructure\NovelSys.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
