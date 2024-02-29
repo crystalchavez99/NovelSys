@@ -1,9 +1,15 @@
-using NovelSys.Application.Services.Authentication;
+using NovelSys.Application;
+using NovelSys.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
+{
+    builder.Services
+        .AddInfrastructure()
+        .AddApplication();
+    builder.Services.AddControllers();
+}
 
-builder.Services.AddScoped<IAuthenticationService, AuthenticationService>();
-builder.Services.AddControllers();
+
 
 var app = builder.Build();
 {
