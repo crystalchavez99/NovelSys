@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "NovelSys.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "NovelSys.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NovelSys.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NovelSys.Application.dll": {}
+        }
+      },
+      "NovelSys.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/NovelSys.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NovelSys.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "NovelSys.Application/1.0.0": {
+      "type": "project",
+      "path": "../NovelSys.Application/NovelSys.Application.csproj",
+      "msbuildProject": "../NovelSys.Application/NovelSys.Application.csproj"
+    },
+    "NovelSys.Domain/1.0.0": {
+      "type": "project",
+      "path": "../NovelSys.Domain/NovelSys.Domain.csproj",
+      "msbuildProject": "../NovelSys.Domain/NovelSys.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "NovelSys.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\CChavez\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Application\\NovelSys.Application.csproj": {
+              "projectPath": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Application\\NovelSys.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

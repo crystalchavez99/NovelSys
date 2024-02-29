@@ -9,3 +9,4 @@ C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Domain\obj\Debug\net8.0\refint\NovelSys.Domain.dll
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Domain\obj\Debug\net8.0\NovelSys.Domain.pdb
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Domain\obj\Debug\net8.0\ref\NovelSys.Domain.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Domain\obj\Debug\net8.0\NovelSys.Domain.sourcelink.json
