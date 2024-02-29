@@ -18,6 +18,7 @@
       },
       "NovelSys.Application/1.0.0": {
         "dependencies": {
+          "NovelSys.Contracts": "1.0.0",
           "NovelSys.Domain": "1.0.0"
         },
         "runtime": {

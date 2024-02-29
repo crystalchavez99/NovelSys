@@ -8,10 +8,16 @@
     ".NETCoreApp,Version=v8.0": {
       "NovelSys.Application/1.0.0": {
         "dependencies": {
+          "NovelSys.Contracts": "1.0.0",
           "NovelSys.Domain": "1.0.0"
         },
         "runtime": {
           "NovelSys.Application.dll": {}
+        }
+      },
+      "NovelSys.Contracts/1.0.0": {
+        "runtime": {
+          "NovelSys.Contracts.dll": {}
         }
       },
       "NovelSys.Domain/1.0.0": {
@@ -23,6 +29,11 @@
   },
   "libraries": {
     "NovelSys.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NovelSys.Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -2,6 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NovelSys.Domain\NovelSys.Domain.csproj" />
+    <ProjectReference Include="..\NovelSys.Contracts\NovelSys.Contracts.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

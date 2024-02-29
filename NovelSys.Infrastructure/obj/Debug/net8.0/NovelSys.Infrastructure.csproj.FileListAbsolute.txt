@@ -16,3 +16,5 @@ C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Infrastructure\obj\Debug\net8.0\refint\NovelSys.Infrastructure.dll
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Infrastructure\obj\Debug\net8.0\NovelSys.Infrastructure.pdb
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Infrastructure\obj\Debug\net8.0\ref\NovelSys.Infrastructure.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Infrastructure\bin\Debug\net8.0\NovelSys.Contracts.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Infrastructure\bin\Debug\net8.0\NovelSys.Contracts.pdb
