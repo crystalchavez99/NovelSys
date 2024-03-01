@@ -34,3 +34,8 @@ C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\NovelSys.Infrastructure.pdb
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\NovelSys.Domain.pdb
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\obj\Debug\net8.0\NovelSys.Api.sourcelink.json
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
