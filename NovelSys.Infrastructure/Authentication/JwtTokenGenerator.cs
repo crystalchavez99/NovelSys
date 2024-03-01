@@ -1,5 +1,7 @@
-﻿using Microsoft.IdentityModel.Tokens;
+﻿using Microsoft.Extensions.Options;
+using Microsoft.IdentityModel.Tokens;
 using NovelSys.Application.Common.Interfaces.Authentication;
+using NovelSys.Application.Common.Interfaces.Services;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
@@ -8,10 +10,18 @@ namespace NovelSys.Infrastructure.Authentication
 {
     public class JwtTokenGenerator : IJwtTokenGenerator
     {
+        private readonly JwtSettings _jwtSettings;
+        private readonly IDateTimeProvider _dateTimeProvider;
+        public JwtTokenGenerator(IDateTimeProvider dateTimeProvider, IOptions<JwtSettings> jwtOptions)
+        {
+            _dateTimeProvider = dateTimeProvider;
+            _jwtSettings = jwtOptions.Value;
+        }
         public string GenerateToken(Guid userId, string firstName, string lastName)
         {
+
             var signingCredentials = new SigningCredentials(
-                new SymmetricSecurityKey(Encoding.UTF8.GetBytes("super-secret-key-set-for-authentication-reasons")),
+                new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_jwtSettings.Secret)),
                 SecurityAlgorithms.HmacSha256);
 
             var claims = new[]
@@ -22,8 +32,9 @@ namespace NovelSys.Infrastructure.Authentication
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
             };
             var securityToken = new JwtSecurityToken(
-                issuer:"NovelSys",
-                expires: DateTime.Now.AddDays(1),
+                issuer: _jwtSettings.Issuer,
+                audience: _jwtSettings.Audience,
+                expires: _dateTimeProvider.UtcNow.AddMinutes(_jwtSettings.ExpiryMinutes),
                 claims: claims,
                 signingCredentials: signingCredentials
                 );

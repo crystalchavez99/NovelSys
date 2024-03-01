@@ -8,6 +8,6 @@ namespace NovelSys.Application.Common.Interfaces.Services
 {
     public interface IDateTimeProvider
     {
-        DateTime UtcNow { get; };
+        DateTime UtcNow { get; }
     }
 }

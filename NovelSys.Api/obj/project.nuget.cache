@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "5Yu0YFzzv2vaP5CU7nf2Cw0C6p5C6Gaiw4Mlj1kS4a9ftgdEuPTXFQl1c1Z54OgmE3DitclQIm8dmj9gNfLTog==",
+  "dgSpecHash": "4R14X5WNSCi3E8hVKK2Uxds4k1Z0e/7wm9OC3IeRzNnbaXkw+CM+susAJ66m47gp1sZpnCytFBkmz8pspLVh1Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Api\\NovelSys.Api.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\CChavez\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\CChavez\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\CChavez\\.nuget\\packages\\microsoft.extensions.configuration.binder\\8.0.0\\microsoft.extensions.configuration.binder.8.0.0.nupkg.sha512",
     "C:\\Users\\CChavez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\CChavez\\.nuget\\packages\\microsoft.extensions.options\\8.0.0\\microsoft.extensions.options.8.0.0.nupkg.sha512",
+    "C:\\Users\\CChavez\\.nuget\\packages\\microsoft.extensions.options.configurationextensions\\8.0.0\\microsoft.extensions.options.configurationextensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\CChavez\\.nuget\\packages\\microsoft.extensions.primitives\\8.0.0\\microsoft.extensions.primitives.8.0.0.nupkg.sha512",
     "C:\\Users\\CChavez\\.nuget\\packages\\microsoft.identitymodel.abstractions\\7.4.0\\microsoft.identitymodel.abstractions.7.4.0.nupkg.sha512",
     "C:\\Users\\CChavez\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\7.4.0\\microsoft.identitymodel.jsonwebtokens.7.4.0.nupkg.sha512",
     "C:\\Users\\CChavez\\.nuget\\packages\\microsoft.identitymodel.logging\\7.4.0\\microsoft.identitymodel.logging.7.4.0.nupkg.sha512",

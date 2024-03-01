@@ -4,8 +4,8 @@ using NovelSys.Infrastructure;
 var builder = WebApplication.CreateBuilder(args);
 {
     builder.Services
-        .AddInfrastructure()
-        .AddApplication();
+        .AddApplication()
+         .AddInfrastructure(builder.Configuration);
     builder.Services.AddControllers();
 }
 
