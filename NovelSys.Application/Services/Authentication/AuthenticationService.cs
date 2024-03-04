@@ -43,7 +43,27 @@ namespace NovelSys.Application.Services.Authentication
         string email,
         string password)
         {
-            return new AuthenticationResult(Guid.NewGuid(), "firstName", "lastName", email, "token");
+            // check if user exists
+            if(_userRepository.GetUserByEmail(email) is not User user)
+            {
+                throw new Exception("User with given email does not exist");
+            }
+
+            // check if password is correct
+            if(user.Password != password)
+            {
+                throw new Exception("Invalid password");
+            }
+            
+            // create jwt token
+            var token = _jwtTokenGenerator.GenerateToken(user.Id, user.FirstName, user.LastName);
+
+            return new AuthenticationResult(
+                user.Id,
+               user.FirstName, 
+                user.LastName, 
+                email, 
+                token);
         }
     }
 }
