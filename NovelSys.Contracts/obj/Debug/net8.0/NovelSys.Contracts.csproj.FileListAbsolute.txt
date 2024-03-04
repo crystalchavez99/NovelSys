@@ -10,3 +10,15 @@ C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Contracts\obj\Debug\net8.0\NovelSys.Contracts.pdb
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Contracts\obj\Debug\net8.0\ref\NovelSys.Contracts.dll
 C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Contracts\obj\Debug\net8.0\NovelSys.Contracts.sourcelink.json
+C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Contracts\bin\Debug\net8.0\NovelSys.Contracts.deps.json
+C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Contracts\bin\Debug\net8.0\NovelSys.Contracts.dll
+C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Contracts\bin\Debug\net8.0\NovelSys.Contracts.pdb
+C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Contracts\obj\Debug\net8.0\NovelSys.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Contracts\obj\Debug\net8.0\NovelSys.Contracts.AssemblyInfoInputs.cache
+C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Contracts\obj\Debug\net8.0\NovelSys.Contracts.AssemblyInfo.cs
+C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Contracts\obj\Debug\net8.0\NovelSys.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Contracts\obj\Debug\net8.0\NovelSys.Contracts.sourcelink.json
+C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Contracts\obj\Debug\net8.0\NovelSys.Contracts.dll
+C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Contracts\obj\Debug\net8.0\refint\NovelSys.Contracts.dll
+C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Contracts\obj\Debug\net8.0\NovelSys.Contracts.pdb
+C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Contracts\obj\Debug\net8.0\ref\NovelSys.Contracts.dll
