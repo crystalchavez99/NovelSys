@@ -34,9 +34,15 @@ namespace NovelSys.Application.Services.Authentication
 
             // create jwt token 
            // Guid userId = Guid.NewGuid();
-            var token = _jwtTokenGenerator.GenerateToken(user.Id,firstName, lastName);
+            var token = _jwtTokenGenerator.GenerateToken(user);
 
-            return new AuthenticationResult(user.Id, firstName, lastName, email, token);   
+            return new AuthenticationResult(
+                /*user.Id, 
+                firstName, 
+                lastName, 
+                email, */
+                user,
+                token);   
         }
 
         public AuthenticationResult Login(
@@ -56,13 +62,14 @@ namespace NovelSys.Application.Services.Authentication
             }
             
             // create jwt token
-            var token = _jwtTokenGenerator.GenerateToken(user.Id, user.FirstName, user.LastName);
+            var token = _jwtTokenGenerator.GenerateToken(user);
 
             return new AuthenticationResult(
-                user.Id,
-               user.FirstName, 
-                user.LastName, 
-                email, 
+                /*user.Id, 
+                firstName, 
+                lastName, 
+                email, */
+                user,
                 token);
         }
     }

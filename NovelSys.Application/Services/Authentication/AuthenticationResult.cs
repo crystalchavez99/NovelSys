@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NovelSys.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,10 +9,11 @@ namespace NovelSys.Application.Services.Authentication
 {
     public record AuthenticationResult
    (
-        Guid Id,
+        /*Guid Id,
         string FirstName,
         string LastName,
-        string Email,
+        string Email,*/
+        User User,
         string Token
         );
 }
