@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using System.Net;
 
 namespace NovelSys.Api.Filters
 {
@@ -7,17 +8,14 @@ namespace NovelSys.Api.Filters
     {
         public override void OnException(ExceptionContext context)
         {
-            /*if (context.Exception == null)
-             {
-                 return;
-             }
-             context.Result = new ObjectResult(new
-             { error = context.Exception.Message });*/
             var exception = context.Exception;
-            context.Result = new ObjectResult(new { error = "An error has occurred!" })
+            var problemDetails = new ProblemDetails
             {
-                StatusCode = 500
+                Type = "https://tools.ietf.org/html/rfc7231#section-6.6.1",
+                Title = "Error during request",
+                Status = (int)HttpStatusCode.InternalServerError,
             };
+            context.Result = new ObjectResult(problemDetails);
             context.ExceptionHandled = true;
         }
     }
