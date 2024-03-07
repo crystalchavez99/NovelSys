@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using NovelSys.Api.Filters;
 using NovelSys.Application.Services.Authentication;
 using NovelSys.Contracts.Authentication;
 
@@ -7,6 +8,7 @@ namespace NovelSys.Api.Controllers
 {
     [Route("api/auth")]
     [ApiController]
+    //[ErrorHandlingFilter]
     public class AuthenticationController : ControllerBase
     {
         private readonly IAuthenticationService _authenticationService;

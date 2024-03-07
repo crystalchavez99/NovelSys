@@ -14,7 +14,11 @@ namespace NovelSys.Api.Filters
              context.Result = new ObjectResult(new
              { error = context.Exception.Message });*/
             var exception = context.Exception;
-            context.Result = new ObjectResult(exception);
+            context.Result = new ObjectResult(new { error = "An error has occurred!" })
+            {
+                StatusCode = 500
+            };
+            context.ExceptionHandled = true;
         }
     }
 }

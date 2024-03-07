@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zL1NW2kvGqLhi2vGAi7FxwzvmefvcSeuluG8FOP3ttoSPc9eU0eEhSbnsUrwOHA2hVA8yFyQinES+tk7SxHK1w==",
+  "dgSpecHash": "OhDhN9Tzv8ik8UXQSCukOz2PNFHgwqo1907C+jRt0F9RQrNecGzdK3kAPUooYw+JHRuw43WUvugPVu6cA4dJQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Redfi\\Documents\\Multiverse\\Back-End-Project\\NovelSys.Contracts\\NovelSys.Contracts.csproj",
+  "projectFilePath": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Contracts\\NovelSys.Contracts.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
