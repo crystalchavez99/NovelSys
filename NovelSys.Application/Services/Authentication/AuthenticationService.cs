@@ -1,4 +1,5 @@
-﻿using NovelSys.Application.Common.Interfaces.Authentication;
+﻿using NovelSys.Application.Common.Errors;
+using NovelSys.Application.Common.Interfaces.Authentication;
 using NovelSys.Application.Common.Interfaces.Persistence;
 using NovelSys.Domain.Entities;
 
@@ -24,7 +25,8 @@ namespace NovelSys.Application.Services.Authentication
             // if user exists
             if(_userRepository.GetUserByEmail(email) != null)
             {
-                throw new Exception("User with given email already exists.");
+                //throw new Exception("User with given email already exists.");
+                throw new DuplicateEmailException();
             }
 
             // create user (uniq id)

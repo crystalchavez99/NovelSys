@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using NovelSys.Application.Common.Errors;
 
 namespace NovelSys.Api.Controllers
 {
@@ -10,7 +11,14 @@ namespace NovelSys.Api.Controllers
         public IActionResult Error()
         {
             Exception? exception = HttpContext.Features.Get<IExceptionHandlerFeature>()?.Error;
-            return Problem(title: exception?.Message, statusCode: 400);
+
+            var (statusCode, message) = exception switch
+            {
+                IServiceException serviceException => ((int)serviceException.StatusCode, serviceException.ErrorMessage),
+                _
+                => (StatusCodes.Status500InternalServerError, "Unexpected error occurred"),
+            };
+            return Problem(title: message, statusCode: statusCode);
         }
     }
 }
