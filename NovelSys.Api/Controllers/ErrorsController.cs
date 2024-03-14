@@ -14,7 +14,7 @@ namespace NovelSys.Api.Controllers
 
             var (statusCode, message) = exception switch
             {
-                IServiceException serviceException => ((int)serviceException.StatusCode, serviceException.ErrorMessage),
+                IError serviceException => ((int)serviceException.StatusCode, serviceException.ErrorMessage),
                 _
                 => (StatusCodes.Status500InternalServerError, "Unexpected error occurred"),
             };

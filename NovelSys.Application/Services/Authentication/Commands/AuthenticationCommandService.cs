@@ -3,7 +3,7 @@ using NovelSys.Application.Common.Interfaces.Authentication;
 using NovelSys.Application.Common.Interfaces.Persistence;
 using NovelSys.Application.Services.Authentication.Common;
 using NovelSys.Domain.Entities;
-
+using FluentResults;
 
 namespace NovelSys.Application.Services.Authentication.Commands
 {
@@ -18,7 +18,7 @@ namespace NovelSys.Application.Services.Authentication.Commands
             _userRepository = userRepository;
         }
 
-        public AuthenticationResult Register(string firstName,
+        public Result<AuthenticationResult> Register(string firstName,
         string lastName,
         string email,
         string password)
@@ -27,7 +27,8 @@ namespace NovelSys.Application.Services.Authentication.Commands
             if (_userRepository.GetUserByEmail(email) != null)
             {
                 //throw new Exception("User with given email already exists.");
-                throw new DuplicateEmailException();
+                // throw new DuplicateEmailException();
+                return Result.Fail<AuthenticationResult>(new[] { new DuplicateEmailError() });
             }
 
             // create user (uniq id)
@@ -71,9 +72,10 @@ namespace NovelSys.Application.Services.Authentication.Commands
                 /*user.Id, 
                 firstName, 
                 lastName, 
-                email, */
+                email,*/
                 user,
-                token);
-        }
+                token); 
+                }
     }
+
 }

@@ -16,6 +16,26 @@
           "NovelSys.Api.dll": {}
         }
       },
+      "MediatR/12.2.0": {
+        "dependencies": {
+          "MediatR.Contracts": "2.0.1",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/MediatR.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.2.0.0"
+          }
+        }
+      },
+      "MediatR.Contracts/2.0.1": {
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "assemblyVersion": "2.0.1.0",
+            "fileVersion": "2.0.1.0"
+          }
+        }
+      },
       "Microsoft.Extensions.Configuration/8.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Configuration.Abstractions": "8.0.0",
@@ -90,6 +110,14 @@
           }
         }
       },
+      "OneOf/3.0.263": {
+        "runtime": {
+          "lib/netstandard2.0/OneOf.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "System.IdentityModel.Tokens.Jwt/7.4.0": {
         "dependencies": {
           "Microsoft.IdentityModel.JsonWebTokens": "7.4.0",
@@ -104,9 +132,11 @@
       },
       "NovelSys.Application/1.0.0": {
         "dependencies": {
+          "MediatR": "12.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
           "NovelSys.Contracts": "1.0.0",
-          "NovelSys.Domain": "1.0.0"
+          "NovelSys.Domain": "1.0.0",
+          "OneOf": "3.0.263"
         },
         "runtime": {
           "NovelSys.Application.dll": {}
@@ -141,6 +171,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "MediatR/12.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8TUFrHapKi6D74PhnSNEguRsH91HNGyP3R4ZQdgDorJgl9Wac5Prh0vA33QfrniAaS6L2xNNhc6vxzg+5AIbwA==",
+      "path": "mediatr/12.2.0",
+      "hashPath": "mediatr.12.2.0.nupkg.sha512"
+    },
+    "MediatR.Contracts/2.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-FYv95bNT4UwcNA+G/J1oX5OpRiSUxteXaUt2BJbRSdRNiIUNbggJF69wy6mnk2wYToaanpdXZdCwVylt96MpwQ==",
+      "path": "mediatr.contracts/2.0.1",
+      "hashPath": "mediatr.contracts.2.0.1.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/8.0.0": {
       "type": "package",
@@ -218,6 +262,13 @@
       "sha512": "sha512-2GXnFtFNv51QaIFw7pC3+OSRG+wDxj53MY6o6DRFFp/wAsTUTeasN+7Gkc6zSuI4cbrU9KXSVzs2cnW6EQ5szg==",
       "path": "microsoft.identitymodel.tokens/7.4.0",
       "hashPath": "microsoft.identitymodel.tokens.7.4.0.nupkg.sha512"
+    },
+    "OneOf/3.0.263": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-2xXFnUxkAA0rJ2sJz9FPeW/gzJIBvyj+xIvfTIkz42pz9JlcYse4/rwRnkmCsYxw6osy1whnBO6Ox6HBKEqDMw==",
+      "path": "oneof/3.0.263",
+      "hashPath": "oneof.3.0.263.nupkg.sha512"
     },
     "System.IdentityModel.Tokens.Jwt/7.4.0": {
       "type": "package",

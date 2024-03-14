@@ -14,4 +14,5 @@
     <ProjectReference Include="..\NovelSys.Infrastructure\NovelSys.Infrastructure.csproj" />
   </ItemGroup>
 
+
 </Project>

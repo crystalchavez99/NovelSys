@@ -80,3 +80,6 @@ C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Api\obj\Debug\net8
 C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Api\obj\Debug\net8.0\NovelSys.Api.pdb
 C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Api\obj\Debug\net8.0\NovelSys.Api.genruntimeconfig.cache
 C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Api\obj\Debug\net8.0\ref\NovelSys.Api.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\MediatR.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Api\bin\Debug\net8.0\OneOf.dll

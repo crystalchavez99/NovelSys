@@ -26,8 +26,7 @@ namespace NovelSys.Application.Services.Authentication
             // if user exists
             if(_userRepository.GetUserByEmail(email) != null)
             {
-                //throw new Exception("User with given email already exists.");
-                throw new DuplicateEmailException();
+                throw new Exception("User with given email already exists.");
             }
 
             // create user (uniq id)
