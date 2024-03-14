@@ -1,17 +1,18 @@
 ﻿using NovelSys.Application.Common.Errors;
 using NovelSys.Application.Common.Interfaces.Authentication;
 using NovelSys.Application.Common.Interfaces.Persistence;
+using NovelSys.Application.Services.Authentication.Common;
 using NovelSys.Domain.Entities;
 
 
 namespace NovelSys.Application.Services.Authentication
 {
-    public class AuthenticationService : IAuthenticationService
+    public class AuthenticationQueryService : IAuthenticationQueryService
     {
         private readonly IJwtTokenGenerator _jwtTokenGenerator;
         private readonly IUserRepository _userRepository;
 
-        public AuthenticationService(IJwtTokenGenerator jwtTokenGenerator, IUserRepository userRepository)
+        public AuthenticationQueryService(IJwtTokenGenerator jwtTokenGenerator, IUserRepository userRepository)
         {
             _jwtTokenGenerator = jwtTokenGenerator;
             _userRepository = userRepository;

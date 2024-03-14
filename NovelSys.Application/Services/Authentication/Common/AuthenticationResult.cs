@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace NovelSys.Application.Services.Authentication
+namespace NovelSys.Application.Services.Authentication.Common
 {
     public record AuthenticationResult
    (
