@@ -22,3 +22,4 @@ C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Domain\obj\Debug\n
 C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Domain\obj\Debug\net8.0\refint\NovelSys.Domain.dll
 C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Domain\obj\Debug\net8.0\NovelSys.Domain.pdb
 C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Domain\obj\Debug\net8.0\ref\NovelSys.Domain.dll
+C:\Users\CChavez\Documents\Multiverse\Back-End-Module\Multiverse-Backend-Module-Project\NovelSys\NovelSys.Domain\obj\Debug\net8.0\NovelSys.Domain.csproj.AssemblyReference.cache

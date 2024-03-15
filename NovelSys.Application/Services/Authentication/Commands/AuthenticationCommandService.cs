@@ -4,6 +4,8 @@ using NovelSys.Application.Common.Interfaces.Persistence;
 using NovelSys.Application.Services.Authentication.Common;
 using NovelSys.Domain.Entities;
 using FluentResults;
+using ErrorOr;
+using NovelSys.Domain.Common.Errors;
 
 namespace NovelSys.Application.Services.Authentication.Commands
 {
@@ -18,7 +20,7 @@ namespace NovelSys.Application.Services.Authentication.Commands
             _userRepository = userRepository;
         }
 
-        public Result<AuthenticationResult> Register(string firstName,
+        public ErrorOr<AuthenticationResult> Register(string firstName,
         string lastName,
         string email,
         string password)
@@ -26,9 +28,7 @@ namespace NovelSys.Application.Services.Authentication.Commands
             // if user exists
             if (_userRepository.GetUserByEmail(email) != null)
             {
-                //throw new Exception("User with given email already exists.");
-                // throw new DuplicateEmailException();
-                return Result.Fail<AuthenticationResult>(new[] { new DuplicateEmailError() });
+                return Errors.User.DuplicateEmail;
             }
 
             // create user (uniq id)
@@ -49,30 +49,26 @@ namespace NovelSys.Application.Services.Authentication.Commands
                 token);
         }
 
-        public AuthenticationResult Login(
+        public ErrorOr<AuthenticationResult> Login(
         string email,
         string password)
         {
             // check if user exists
             if (_userRepository.GetUserByEmail(email) is not User user)
             {
-                throw new Exception("User with given email does not exist");
+                return Errors.Authentication.InvalidCredentials;
             }
 
             // check if password is correct
             if (user.Password != password)
             {
-                throw new Exception("Invalid password");
+                return Errors.Authentication.InvalidCredentials;
             }
 
             // create jwt token
             var token = _jwtTokenGenerator.GenerateToken(user);
 
             return new AuthenticationResult(
-                /*user.Id, 
-                firstName, 
-                lastName, 
-                email,*/
                 user,
                 token); 
                 }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "b5amu5ZQDzYwdZ3ZkA0deXik7H/Ke1WscGYRNq+0/PBMO3eIwXD9HWzIK1JvDnTE0huJrcxIDfMdl0U/UdK3Lg==",
+  "dgSpecHash": "q4QT/lxGdpj3VK+0I/13NcwjIqo7MtnUuAim27XLajQMk9FiDms7bC5pYknlcuutOpM42f5hFP/91OWGt2ju7A==",
   "success": true,
   "projectFilePath": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Application\\NovelSys.Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\CChavez\\.nuget\\packages\\erroror\\1.10.0\\erroror.1.10.0.nupkg.sha512",
     "C:\\Users\\CChavez\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
     "C:\\Users\\CChavez\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\CChavez\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
