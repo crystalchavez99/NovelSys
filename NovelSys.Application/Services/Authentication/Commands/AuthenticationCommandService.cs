@@ -49,7 +49,7 @@ namespace NovelSys.Application.Services.Authentication.Commands
                 token);
         }
 
-        public ErrorOr<AuthenticationResult> Login(
+      /*  public ErrorOr<AuthenticationResult> Login(
         string email,
         string password)
         {
@@ -71,7 +71,7 @@ namespace NovelSys.Application.Services.Authentication.Commands
             return new AuthenticationResult(
                 user,
                 token); 
-                }
+                }*/
     }
 
 }

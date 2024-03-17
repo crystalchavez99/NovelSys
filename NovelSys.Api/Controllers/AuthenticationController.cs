@@ -6,6 +6,8 @@ using NovelSys.Application.Services.Authentication.Common;
 using NovelSys.Contracts.Authentication;
 using NovelSys.Domain.Common.Errors;
 using ErrorOr;
+using NovelSys.Application.Authentication.Commands.Register;
+
 namespace NovelSys.Api.Controllers
 {
     [Route("api/auth")]
@@ -18,26 +20,27 @@ namespace NovelSys.Api.Controllers
        private readonly IAuthenticationCommandService _authenticationCommandService;
         private readonly IAuthenticationQueryService _authenticationQueryService;
 
-        public AuthenticationController(IAuthenticationCommandService authenticationService, IAuthenticationQueryService authenticationQueryService)
+        public AuthenticationController(
+            //IMediator mediator
+           IAuthenticationCommandService authenticationService, 
+            IAuthenticationQueryService authenticationQueryService
+            )
         {
-          //  _mediator = mediator;
+          //_mediator = mediator;
             _authenticationCommandService = authenticationService;
             _authenticationQueryService = authenticationQueryService;
         }
 
         [HttpPost("register")]
-        public IActionResult Register(RegisterRequest request)
+        public async Task<IActionResult> Register(RegisterRequest request)
         {
-            ErrorOr<AuthenticationResult> registerResult = _authenticationCommandService.Register(
-                request.FirstName,
-                request.LastName,
-                request.Email,
-                request.Password);
+            // var command = new RegisterCommand(request.FirstName, request.LastName, request.Email, request.Password);
+            //ErrorOr<AuthenticationResult> registerResult = await _mediator.Send(command);
+            ErrorOr<AuthenticationResult> registerResult = _authenticationCommandService.Register(request.FirstName, request.LastName, request.Email, request.Password);
 
-            return registerResult.MatchFirst(
+            return registerResult.Match(
                 registerResult => Ok(MapAuthResult(registerResult)),
-                firstError => Problem(statusCode: StatusCodes.Status409Conflict, title:firstError.Description)
-                );
+                errors => Problem(errors));
 
         }
 
@@ -55,7 +58,7 @@ namespace NovelSys.Api.Controllers
         [HttpPost("login")]
         public IActionResult Login(LoginRequest request)
         {
-            var loginResult = _authenticationCommandService.Login(
+            var loginResult = _authenticationQueryService.Login(
                 request.Email,
                 request.Password);
 

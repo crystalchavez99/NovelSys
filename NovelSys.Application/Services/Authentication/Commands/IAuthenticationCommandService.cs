@@ -10,8 +10,6 @@ namespace NovelSys.Application.Services.Authentication.Commands
         string Email,
         string Password);
 
-        ErrorOr<AuthenticationResult> Login(
-        string Email,
-        string Password);
+       // ErrorOr<AuthenticationResult> Login(string Email,string Password);
     }
 }

@@ -919,19 +919,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CChavez\\.nuget\\packages\\": {}
+    "C:\\Users\\Redfi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Api\\NovelSys.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Redfi\\Documents\\Multiverse\\Back-End-Project\\NovelSys.Api\\NovelSys.Api.csproj",
       "projectName": "NovelSys.Api",
-      "projectPath": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Api\\NovelSys.Api.csproj",
-      "packagesPath": "C:\\Users\\CChavez\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Api\\obj\\",
+      "projectPath": "C:\\Users\\Redfi\\Documents\\Multiverse\\Back-End-Project\\NovelSys.Api\\NovelSys.Api.csproj",
+      "packagesPath": "C:\\Users\\Redfi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Redfi\\Documents\\Multiverse\\Back-End-Project\\NovelSys.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\CChavez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Redfi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -945,14 +945,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Application\\NovelSys.Application.csproj": {
-              "projectPath": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Application\\NovelSys.Application.csproj"
+            "C:\\Users\\Redfi\\Documents\\Multiverse\\Back-End-Project\\NovelSys.Application\\NovelSys.Application.csproj": {
+              "projectPath": "C:\\Users\\Redfi\\Documents\\Multiverse\\Back-End-Project\\NovelSys.Application\\NovelSys.Application.csproj"
             },
-            "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Contracts\\NovelSys.Contracts.csproj": {
-              "projectPath": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Contracts\\NovelSys.Contracts.csproj"
+            "C:\\Users\\Redfi\\Documents\\Multiverse\\Back-End-Project\\NovelSys.Contracts\\NovelSys.Contracts.csproj": {
+              "projectPath": "C:\\Users\\Redfi\\Documents\\Multiverse\\Back-End-Project\\NovelSys.Contracts\\NovelSys.Contracts.csproj"
             },
-            "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Infrastructure\\NovelSys.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\CChavez\\Documents\\Multiverse\\Back-End-Module\\Multiverse-Backend-Module-Project\\NovelSys\\NovelSys.Infrastructure\\NovelSys.Infrastructure.csproj"
+            "C:\\Users\\Redfi\\Documents\\Multiverse\\Back-End-Project\\NovelSys.Infrastructure\\NovelSys.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Redfi\\Documents\\Multiverse\\Back-End-Project\\NovelSys.Infrastructure\\NovelSys.Infrastructure.csproj"
             }
           }
         }
@@ -985,7 +985,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
