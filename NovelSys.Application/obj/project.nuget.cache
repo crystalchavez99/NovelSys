@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fMNalIoyqHkz6YDulv5CajLgMB6ycTdt13/T1LMEpSy7lkUH5FBEDEKOsPd76NxLTnosTq0wKBF1zaaXHVgc3g==",
+  "dgSpecHash": "5v8/c0El00NrHQtwg1Yvrsy92eL2lwFnuYXgjVsYBNXf2R2rGAEf1eEqM81O/QrcjBIn7Ng9uPA80hwmLvni1Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Redfi\\Documents\\Multiverse\\Back-End-Project\\NovelSys.Application\\NovelSys.Application.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Redfi\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Redfi\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\microsoft.extensions.logging.abstractions.6.0.1.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\oneof\\3.0.263\\oneof.3.0.263.nupkg.sha512",

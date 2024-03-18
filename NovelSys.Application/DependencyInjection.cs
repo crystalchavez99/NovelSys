@@ -1,16 +1,13 @@
-﻿using Microsoft.Extensions.DependencyInjection;
-using NovelSys.Application.Services.Authentication;
-using NovelSys.Application.Services.Authentication.Commands;
+﻿using MediatR;
+using Microsoft.Extensions.DependencyInjection;
 
-namespace NovelSys.Application
+namespace NovelSys.Application;
+public static class DependencyInjection
 {
-    public static class DependencyInjection
+    public static IServiceCollection AddApplication(this IServiceCollection services)
     {
-        public static IServiceCollection AddApplication(this IServiceCollection services) {
-           services.AddScoped<IAuthenticationCommandService, AuthenticationCommandService>();
-            services.AddScoped<IAuthenticationQueryService, AuthenticationQueryService>();
-            return services;
-
-        }
+        services.AddMediatR(config => config.RegisterServicesFromAssembly(typeof(DependencyInjection).Assembly));
+        return services;
     }
 }
+

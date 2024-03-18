@@ -7,6 +7,7 @@ using NovelSys.Contracts.Authentication;
 using NovelSys.Domain.Common.Errors;
 using ErrorOr;
 using NovelSys.Application.Authentication.Commands.Register;
+using NovelSys.Application.Authentication.Queries.Login;
 
 namespace NovelSys.Api.Controllers
 {
@@ -15,28 +16,20 @@ namespace NovelSys.Api.Controllers
     //[ErrorHandlingFilter]
     public class AuthenticationController : ApiController
     {
-        private readonly IMediator _mediator;
+        private readonly ISender _mediator;
 
-       private readonly IAuthenticationCommandService _authenticationCommandService;
-        private readonly IAuthenticationQueryService _authenticationQueryService;
-
-        public AuthenticationController(
-            //IMediator mediator
-           IAuthenticationCommandService authenticationService, 
-            IAuthenticationQueryService authenticationQueryService
-            )
+        public AuthenticationController(ISender mediator)
         {
-          //_mediator = mediator;
-            _authenticationCommandService = authenticationService;
-            _authenticationQueryService = authenticationQueryService;
+            _mediator = mediator;
         }
+
 
         [HttpPost("register")]
         public async Task<IActionResult> Register(RegisterRequest request)
         {
-            // var command = new RegisterCommand(request.FirstName, request.LastName, request.Email, request.Password);
-            //ErrorOr<AuthenticationResult> registerResult = await _mediator.Send(command);
-            ErrorOr<AuthenticationResult> registerResult = _authenticationCommandService.Register(request.FirstName, request.LastName, request.Email, request.Password);
+            var command = new RegisterCommand(request.FirstName, request.LastName, request.Email, request.Password);
+            ErrorOr<AuthenticationResult> registerResult = await _mediator.Send(command);
+           // ErrorOr<AuthenticationResult> registerResult = _authenticationCommandService.Register(request.FirstName, request.LastName, request.Email, request.Password);
 
             return registerResult.Match(
                 registerResult => Ok(MapAuthResult(registerResult)),
@@ -56,11 +49,12 @@ namespace NovelSys.Api.Controllers
         }
 
         [HttpPost("login")]
-        public IActionResult Login(LoginRequest request)
+        public async Task<IActionResult> Login(LoginRequest request)
         {
-            var loginResult = _authenticationQueryService.Login(
-                request.Email,
+
+            var query = new LoginQuery(request.Email,
                 request.Password);
+            var loginResult = await _mediator.Send(query);
 
             if(loginResult.IsError && loginResult.FirstError == Errors.Authentication.InvalidCredentials)
             {
