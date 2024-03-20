@@ -94,3 +94,7 @@ C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Api\bin\Debug\net8
 C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Api\bin\Debug\net8.0\Mapster.dll
 C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Api\bin\Debug\net8.0\Mapster.Core.dll
 C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Api\bin\Debug\net8.0\Mapster.DependencyInjection.dll
+C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Api\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Api\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Api\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Redfi\Documents\Multiverse\Back-End-Project\NovelSys.Api\obj\Debug\net8.0\NovelSys.Api.MvcApplicationPartsAssemblyInfo.cs

@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "TkQKYngmBOdC/J0FSjmTM8FQ4YodcsOgWXrfkMmDvXa7zbNNnRujc56Ld9pPeJlW7oOOF7oz/IVYiFrIovqDDg==",
+  "dgSpecHash": "rnoPxYE7DOl91oG3GGjDY0b+Q+XItm09o9mGV7y5vrvL9HDFKuYsfH/3g9W9rJnWIp1VcjHpypiYTZRp2OGpXA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Redfi\\Documents\\Multiverse\\Back-End-Project\\NovelSys.Infrastructure\\NovelSys.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Redfi\\.nuget\\packages\\erroror\\1.10.0\\erroror.1.10.0.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
+    "C:\\Users\\Redfi\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\Redfi\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Redfi\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",

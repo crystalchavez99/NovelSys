@@ -14,6 +14,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
 {
+    // request goes through these pipelines
     //app.UseMiddleware<ErrorHandlingMiddleware>();
     app.UseExceptionHandler("/error");
     app.UseHttpsRedirection();

@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "YZ8Su5sqEses0LX0qctFvVQi/lYNtTqtPg97o/7VX3cQnHa12CRZYe43TB2zr5CO2IkSuyPRmn3Hgy4TLvUifQ==",
+  "dgSpecHash": "kI1q4hHBl9w8fh9Z0T49N1nX7OEr5ORtcLWYWbO8Bt1kh6+I0/BOQbAnwSRWWLnVjqQNt47yRzZxpOEVqed+wg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Redfi\\Documents\\Multiverse\\Back-End-Project\\NovelSys.Api\\NovelSys.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Redfi\\.nuget\\packages\\erroror\\1.10.0\\erroror.1.10.0.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
+    "C:\\Users\\Redfi\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\Redfi\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\Redfi\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\mapster.dependencyinjection\\1.0.1\\mapster.dependencyinjection.1.0.1.nupkg.sha512",
