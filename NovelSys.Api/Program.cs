@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc.Infrastructure;
+using NovelSys.Api;
 using NovelSys.Api.Filters;
 using NovelSys.Api.Middleware;
 using NovelSys.Application;
@@ -7,9 +8,9 @@ using NovelSys.Infrastructure;
 var builder = WebApplication.CreateBuilder(args);
 {
     builder.Services
+           .AddPresentation()
           .AddApplication()
-         .AddInfrastructure(builder.Configuration);
-    builder.Services.AddControllers();
+          .AddInfrastructure(builder.Configuration);
 }
 
 
@@ -26,8 +27,8 @@ var app = builder.Build();
 
 
 
-app.UseAuthorization();
+//app.UseAuthorization();
 
-app.UseAuthentication();
+//app.UseAuthentication();
 
 

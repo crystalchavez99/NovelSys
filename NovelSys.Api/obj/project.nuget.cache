@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "N1yZBmdDi1mZ6y532AtCIe1VH6OoKa0WS9YMzr+HvJRnbwAFLsmM0DeCGaoBW1nvVneXFo/CMtVvgCIc2kJ5Gg==",
+  "dgSpecHash": "YZ8Su5sqEses0LX0qctFvVQi/lYNtTqtPg97o/7VX3cQnHa12CRZYe43TB2zr5CO2IkSuyPRmn3Hgy4TLvUifQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Redfi\\Documents\\Multiverse\\Back-End-Project\\NovelSys.Api\\NovelSys.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Redfi\\.nuget\\packages\\erroror\\1.10.0\\erroror.1.10.0.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\fluentresults\\3.15.2\\fluentresults.3.15.2.nupkg.sha512",
+    "C:\\Users\\Redfi\\.nuget\\packages\\mapster\\7.4.0\\mapster.7.4.0.nupkg.sha512",
+    "C:\\Users\\Redfi\\.nuget\\packages\\mapster.core\\1.2.1\\mapster.core.1.2.1.nupkg.sha512",
+    "C:\\Users\\Redfi\\.nuget\\packages\\mapster.dependencyinjection\\1.0.1\\mapster.dependencyinjection.1.0.1.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\Redfi\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\10.0.1\\mediatr.extensions.microsoft.dependencyinjection.10.0.1.nupkg.sha512",
