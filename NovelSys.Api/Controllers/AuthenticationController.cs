@@ -7,11 +7,12 @@ using NovelSys.Application.Authentication.Commands.Register;
 using NovelSys.Application.Authentication.Queries.Login;
 using MapsterMapper;
 using NovelSys.Application.Authentication.Common;
+using Microsoft.AspNetCore.Authorization;
 
 namespace NovelSys.Api.Controllers;
 
  [Route("api/auth")]
-    [ApiController]
+    [AllowAnonymous]
 //[ErrorHandlingFilter]
 public class AuthenticationController : ApiController
 {

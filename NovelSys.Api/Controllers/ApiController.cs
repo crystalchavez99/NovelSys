@@ -2,10 +2,12 @@
 using ErrorOr;
 using NovelSys.Api.Common.Http;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
+using Microsoft.AspNetCore.Authorization;
 
 namespace NovelSys.Api.Controllers;
 
     [ApiController]
+[Authorize]
 public class ApiController : ControllerBase
 {
     protected IActionResult Problem(List<Error> errors)
