@@ -1,4 +1,4 @@
-﻿using ErrorOr;
+﻿/*using ErrorOr;
 using NovelSys.Application.Common.Errors;
 using NovelSys.Application.Common.Interfaces.Authentication;
 using NovelSys.Application.Common.Interfaces.Persistence;
@@ -47,7 +47,7 @@ namespace NovelSys.Application.Services.Authentication
                  email, 
                  user,
                  token);   
-         }*/
+         }
 
         public ErrorOr<AuthenticationResult> Login(
         string email,
@@ -74,3 +74,4 @@ namespace NovelSys.Application.Services.Authentication
                 }
     }
 }
+*/

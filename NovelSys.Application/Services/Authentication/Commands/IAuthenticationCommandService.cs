@@ -1,5 +1,5 @@
-﻿using NovelSys.Application.Services.Authentication.Common;
-using ErrorOr;
+﻿using ErrorOr;
+using NovelSys.Application.Authentication.Common;
 
 namespace NovelSys.Application.Services.Authentication.Commands
 {

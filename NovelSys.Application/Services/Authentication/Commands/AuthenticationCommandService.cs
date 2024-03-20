@@ -1,4 +1,4 @@
-﻿using NovelSys.Application.Common.Errors;
+﻿/*using NovelSys.Application.Common.Errors;
 using NovelSys.Application.Common.Interfaces.Authentication;
 using NovelSys.Application.Common.Interfaces.Persistence;
 using NovelSys.Application.Services.Authentication.Common;
@@ -44,7 +44,7 @@ namespace NovelSys.Application.Services.Authentication.Commands
                 /*user.Id, 
                 firstName, 
                 lastName, 
-                email, */
+                email, 
                 user,
                 token);
         }
@@ -71,7 +71,8 @@ namespace NovelSys.Application.Services.Authentication.Commands
             return new AuthenticationResult(
                 user,
                 token); 
-                }*/
+                }
     }
 
 }
+*/

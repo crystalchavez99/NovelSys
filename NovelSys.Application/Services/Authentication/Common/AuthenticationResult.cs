@@ -1,4 +1,4 @@
-﻿using NovelSys.Domain.Entities;
+﻿/*using NovelSys.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,3 +13,4 @@ namespace NovelSys.Application.Services.Authentication.Common
         string Token
         );
 }
+*/

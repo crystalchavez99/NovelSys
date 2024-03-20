@@ -1,7 +1,4 @@
-using Microsoft.AspNetCore.Mvc.Infrastructure;
 using NovelSys.Api;
-using NovelSys.Api.Filters;
-using NovelSys.Api.Middleware;
 using NovelSys.Application;
 using NovelSys.Infrastructure;
 

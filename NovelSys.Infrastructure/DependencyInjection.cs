@@ -14,7 +14,9 @@ namespace NovelSys.Infrastructure
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddInfrastructure(this IServiceCollection services, ConfigurationManager configuration)
+        public static IServiceCollection AddInfrastructure(
+            this IServiceCollection services,
+            ConfigurationManager configuration)
         {
             services.Configure<JwtSettings>(configuration.GetSection(JwtSettings.SectionName));
 
@@ -22,8 +24,8 @@ namespace NovelSys.Infrastructure
             services.AddSingleton<IDateTimeProvider, DateTimeProvider>();
 
             services.AddScoped<IUserRepository, UserRepository>();
-            return services;
 
+            return services;
         }
     }
 }

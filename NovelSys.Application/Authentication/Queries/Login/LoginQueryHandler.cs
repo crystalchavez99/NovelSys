@@ -1,8 +1,8 @@
 ﻿using ErrorOr;
 using MediatR;
+using NovelSys.Application.Authentication.Common;
 using NovelSys.Application.Common.Interfaces.Authentication;
 using NovelSys.Application.Common.Interfaces.Persistence;
-using NovelSys.Application.Services.Authentication.Common;
 using NovelSys.Domain.Common.Errors;
 using NovelSys.Domain.Entities;
 

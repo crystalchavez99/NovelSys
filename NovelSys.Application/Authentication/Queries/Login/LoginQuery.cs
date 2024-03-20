@@ -1,6 +1,6 @@
 ﻿using ErrorOr;
 using MediatR;
-using NovelSys.Application.Services.Authentication.Common;
+using NovelSys.Application.Authentication.Common;
 
 
 namespace NovelSys.Application.Authentication.Queries.Login

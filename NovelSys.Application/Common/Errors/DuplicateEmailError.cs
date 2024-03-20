@@ -1,4 +1,4 @@
-﻿using System;
+﻿/*using System;
 using FluentResults;
 
 namespace NovelSys.Application.Common.Errors
@@ -12,3 +12,4 @@ namespace NovelSys.Application.Common.Errors
         public Dictionary<string, object> Metadata => throw new NotImplementedException();
     }
 }
+*/

@@ -1,12 +1,12 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
-using NovelSys.Application.Services.Authentication.Common;
 using NovelSys.Contracts.Authentication;
 using NovelSys.Domain.Common.Errors;
 using ErrorOr;
 using NovelSys.Application.Authentication.Commands.Register;
 using NovelSys.Application.Authentication.Queries.Login;
 using MapsterMapper;
+using NovelSys.Application.Authentication.Common;
 
 namespace NovelSys.Api.Controllers;
 
@@ -34,7 +34,6 @@ public class AuthenticationController : ApiController
             authResult => Ok(_mapper.Map<AuthenticationResponse>(authResult)),
             errors => Problem(errors));
     }
-
     [HttpPost("login")]
     public async Task<IActionResult> Login(LoginRequest request)
     {
